@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
@@ -16,21 +17,21 @@
                     >
                 </div>
                 <form >
-                        <label for="username">
-                        <!-- <div class="text">Username</div> -->
-                        <input type="text" name="username" id="username" placeholder="">
-                    </label>
-                    <label for="password">
-                        <!--     -->
-                        <input type="password" name="password" id="password" placeholder="">
-                    </label>
-                    <div>
+                        <div class="input-group">
+                        <input type="text" id="username" placeholder="" >
+                        <label for="username">Username or Email</label>
+                        </div>
+                    <div class="input-group">
+                        <input type="password" id="password" placeholder="">
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="submit-btn">
                         <button id="submit">
                             SUBMIT
                         </button>
                     </div>
                 </form>
-                <div>
+                <div class="reg-block">
                     <span>Don't have an account? <a href="#" class="link">Sign Up</a></span>
                 </div>
             </div>
